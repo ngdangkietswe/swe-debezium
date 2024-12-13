@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: swe-debezium
+  main:
+    web-application-type: none
+
+database:
+  host: aat-postgres # container name
+  port: 5432
+  username: postgres
+  password: 123456
+
+debezium:
+  address: localhost:8083
